@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grama-Sanjeevini"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rural Healthcare Medicine Finder"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/etSearchMedicine"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Type medicine name here..."
+        android:inputType="text"
+        android:background="#E0E0E0"
+        android:padding="15dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Search Medicine"
+        android:backgroundTint="#1565C0"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- This is your beautiful original Green Box! -->
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Results will appear here"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="15dp"
+        android:background="#E8F5E9"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnNearbyPharmacies"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Show Nearby Pharmacies"
+        android:backgroundTint="#FF8F00"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnEmergency"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Emergency Medicines"
+        android:backgroundTint="#D32F2F"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnPharmacistLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Pharmacist Access"
+        android:backgroundTint="#757575"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Sign Out"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

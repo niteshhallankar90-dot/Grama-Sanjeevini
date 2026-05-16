@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "437011920409",
+    "project_id": "grama-sanjeevini-healthc-68df3",
+    "storage_bucket": "grama-sanjeevini-healthc-68df3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437011920409:android:b31ffb88f14a15e74cdc88",
+        "android_client_info": {
+          "package_name": "com.example.grama_sanjeevini"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ3n0HxcyxnFFrvhf4knG7uzHIU_7Y5FQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

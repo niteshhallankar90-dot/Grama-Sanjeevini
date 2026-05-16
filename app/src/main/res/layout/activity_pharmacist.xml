@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FAFAFA"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pharmacist Stock Panel"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/etPharmMedName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Medicine Name (e.g. Paracetamol)"
+        android:background="#E0E0E0"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/etPharmName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Your Pharmacy Name"
+        android:background="#E0E0E0"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/etPharmStock"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Stock Amount"
+        android:inputType="number"
+        android:background="#E0E0E0"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <!-- EXPIRY DATE FIELD ADDED HERE! -->
+    <EditText
+        android:id="@+id/etPharmExpiry"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Expiry Date (e.g. 2024-12-31)"
+        android:background="#E0E0E0"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <CheckBox
+        android:id="@+id/cbIsEmergency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mark as Critical Emergency Medicine"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etPharmLat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Latitude (e.g. 12.9715)"
+        android:inputType="numberDecimal"
+        android:background="#E0E0E0"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/etPharmLng"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Longitude (e.g. 77.5945)"
+        android:inputType="numberDecimal"
+        android:background="#E0E0E0"
+        android:padding="10dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnUpdateStock"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Upload to Database"
+        android:backgroundTint="#2E7D32"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Back to Main Menu"
+        android:backgroundTint="#757575"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</LinearLayout>
